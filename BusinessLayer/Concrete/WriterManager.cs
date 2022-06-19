@@ -13,6 +13,7 @@ namespace BusinessLayer.Concrete
 	{
 		IWriterDal _writerDal;
 
+
 		public WriterManager(IWriterDal writerDal)
 		{
 			_writerDal = writerDal;
